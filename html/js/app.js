@@ -55,14 +55,14 @@
 		let notif = '';
 
 		if (add) {
-			// notif += '<span class="badge badge-success">Adicionado:</span> +';
+			 notif += '<span class="badge badge-success">Adicionado:</span> +';
 		} else {
-			// notif += '<span class="badge badge-danger">Removido:</span> -';
+			 notif += '<span class="badge badge-danger">Removido:</span> -';
 		}
 
-		// notif += count + ' ' + item.label;
+		 notif += count + ' ' + item.label;
 
-		// let elem = $('<div class="card text-white bg-dark mb-3" style="max-width: 25rem;"><div class="card-header">' + notif + '</div></div>');
+		 let elem = $('' + notif + '');
 
 		$('#inventory_notifications').append(elem);
 
