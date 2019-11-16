@@ -59,9 +59,7 @@ files {
 	'html/ui.html',
 
 	'html/css/app.css',
-	'html/css/bootstrap.css',
 
-	'html/js/bootstrap.min.js',
 	'html/js/mustache.min.js',
 	'html/js/wrapper.js',
 	'html/js/app.js',
