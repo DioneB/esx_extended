@@ -80,6 +80,6 @@ server_exports {
 dependencies {
 	'essentialmode',
 	'DatabaseAPI',
-	'mongo_bridge',
+	'esplugin_mongodb',
 	'async'
 }
